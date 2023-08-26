@@ -1,0 +1,36 @@
+*{
+    box-sizing: inherit;
+}
+
+a{
+    text-decoration: none;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    background-color: #F5F5FA;
+}
+
+.clear{
+    clear: both;
+}
+/* Responsive */
+.grid{
+    width: 1230px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width{
+    width: 100%;
+}
+
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid__col{
+    
+}
